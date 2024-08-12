@@ -45,7 +45,7 @@ curry :: function -> number -> function
 
 ```javascript
 curry(
-  // predicate, not need to specify length unless using variadic function parameters
+  // predicate, no need to specify length unless using variadic function parameters
   (a, b) => a + b
 )(1)(2); // => 3
 
