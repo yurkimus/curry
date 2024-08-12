@@ -44,7 +44,17 @@ curry :: function -> number -> function
 #### Example:
 
 ```javascript
-curry((a, b) => a + b)(1)(2); // => 3
+curry(
+  // predicate, not need to specify length unless using variadic function parameters
+  (a, b) => a + b
+)(1)(2); // => 3
+
+curry(
+  // predicate
+  (a, ...numbers) => a + numbers.reduce((x, a) => x + a, 0),
+  // specified length to handle variadic function parameters
+  2
+)(1)(2, 3); // => 6
 ```
 
 ## License
