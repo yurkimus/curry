@@ -1,0 +1,9 @@
+{
+  "name": "@yurkimus/curry",
+  "version": "0.0.4",
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
+  },
+  "exports": "./source/index.js"
+}
