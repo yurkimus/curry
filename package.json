@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "version": "0.0.0",
+  "name": "@yurkimus/curry",
+  "author": {
+    "name": "yurkimus",
+    "email": "yurkimus@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yurkimus/curry.git"
+  },
+  "types": "./source/index.d.ts",
+  "exports": "./source/index.js",
+  "scripts": {
+    "generate-type-definitions": "npx tsc --declaration --emitDeclarationOnly --allowJs --outFile source/index.d.ts source/*"
+  }
+}
