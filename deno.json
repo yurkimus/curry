@@ -1,9 +1,8 @@
 {
   "name": "@yurkimus/curry",
-  "version": "0.0.4",
-  "fmt": {
-    "semiColons": false,
-    "singleQuote": true
-  },
-  "exports": "./source/index.js"
+  "version": "0.0.5",
+  "exports": "./source/index.js",
+  "imports": {
+    "@yurkimus/types": "https://raw.githubusercontent.com/yurkimus/types/main/source/index.js"
+  }
 }

@@ -38,7 +38,7 @@ npm install @yurkimus/curry
 #### Definition:
 
 ```
-curry :: function -> number -> function
+curry :: Function -> Number -> Function
 ```
 
 #### Example:
@@ -46,15 +46,15 @@ curry :: function -> number -> function
 ```javascript
 curry(
   // predicate, no need to specify length unless using variadic function parameters
-  (a, b) => a + b
-)(1)(2); // => 3
+  (a, b) => a + b,
+)(1)(2) // => 3
 
 curry(
   // predicate
   (a, ...numbers) => a + numbers.reduce((x, a) => x + a, 0),
   // specified length to handle variadic function parameters
-  2
-)(1)(2, 3); // => 6
+  2,
+)(1)(2, 3) // => 6
 ```
 
 ## License
