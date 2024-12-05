@@ -3,7 +3,7 @@
 
   "name": "@yurkimus/curry",
 
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "yurkimus <yurkimus@gmail.com>",
 
   "repository": {
@@ -11,7 +11,10 @@
     "url": "https://github.com/yurkimus/curry.git"
   },
 
-  "exports": "./source/index.js",
+  "exports": {
+    "types": "./source/index.d.ts",
+    "import": "./source/index.js"
+  },
 
   "dependencies": {
     "@yurkimus/types": "npm:@yurkimus/types@0.2.1"
