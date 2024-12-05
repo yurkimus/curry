@@ -1,0 +1,1 @@
+export let curry: (predicate: Function, length: Function['length']) => Function
