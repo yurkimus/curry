@@ -3,7 +3,7 @@
 
   "name": "@yurkimus/curry",
 
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": "yurkimus <yurkimus@gmail.com>",
 
   "repository": {
@@ -13,7 +13,9 @@
 
   "exports": {
     "types": "./source/index.d.ts",
-    "import": "./source/index.js"
+    "import": "./source/index.js",
+    "require": "./source/index.js",
+    "default": "./source/index.js"
   },
 
   "dependencies": {
