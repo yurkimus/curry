@@ -1,9 +1,17 @@
 {
   "version": "4",
-  "remote": {
-    "https://raw.githubusercontent.com/yurkimus/types/main/source/index.js": "55d9d59e538e7c73a6558e4657281517bb26bdcfcea2fc05a4db5228243cedcf"
+  "specifiers": {
+    "npm:@yurkimus/types@0.2.1": "0.2.1"
+  },
+  "npm": {
+    "@yurkimus/types@0.2.1": {
+      "integrity": "sha512-eHABWuuMFq0Jo/HWK6I4YkHb3TrxiJyIVQaEL4GQUdcRiBNCRlL4UmHawaXHPG15LtWXEmNX1if4xgwcLklK7w=="
+    }
   },
   "workspace": {
+    "dependencies": [
+      "npm:@yurkimus/types@0.2.1"
+    ],
     "packageJson": {
       "dependencies": [
         "npm:@yurkimus/types@0.2.1"
