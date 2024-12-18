@@ -1,7 +1,0 @@
-{
-  "name": "@yurkimus/curry",
-
-  "version": "0.1.0",
-
-  "exports": "./source/index.js"
-}
