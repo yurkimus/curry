@@ -1,7 +1,7 @@
-import { is } from '@yurkimus/types'
-
 /**
  * Returns a curried version of a function.
+ *
+ * @type {typeof import('./index.d.ts').curry}
  *
  * @param {Function} predicate
  * @param {number} length
@@ -20,7 +20,7 @@ export let curry = (predicate, length = predicate.length) => {
   if (typeof predicate !== 'function')
     throw new TypeError(`Parameter 'predicate' must be a function.`)
 
-  if (!is('Number', length))
+  if (typeof length !== 'number')
     throw new TypeError(`Parameter 'length' must be a number.`)
 
   return (...parameters) =>
