@@ -7,7 +7,7 @@
  * @throws {TypeError} "predicate" must be a function
  * @throws {TypeError} "length" must be a number
  */
-export let curry = (predicate, length = predicate.length) => {
+export var curry = (predicate, length = predicate.length) => {
   if (typeof predicate !== 'function')
     throw new TypeError(`Parameter 'predicate' must be a function.`)
 
