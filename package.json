@@ -1,18 +1,13 @@
 {
   "type": "module",
-
   "name": "@yurkimus/curry",
-
   "version": "0.1.1",
   "author": "yurkimus <yurkimus@gmail.com>",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/yurkimus/curry.git"
   },
-
   "exports": {
-    "types": "./source/index.d.ts",
     "import": "./source/index.js",
     "require": "./source/index.js",
     "default": "./source/index.js"
